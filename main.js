@@ -276,27 +276,27 @@ var c=20;
 
 if((a>b)&&(a>c)){
 	if(b>c){
-		document.type(a,b,c);
+		document.write(a,b,c);
 	}
 	else{
-		document.type(a,c,b);
+		document.write(a,c,b);
 	}
 }
 
 else if((b>a)&&(b>c)){
 	if(c>a){
-		document.type(b,c,a);
+		document.write(b,c,a);
 	}
 	else{
-		document.type(b,a,c);
+		document.write(b,a,c);
 	}
 }
 else if((c>a)&&(c>b)){
 	if(a>b){
-		document.type(c,a,b);
+		document.write(c,a,b);
 	}
 	else{
-		document.type(c,b,a);
+		document.write(c,b,a);
 	}
 }
 
